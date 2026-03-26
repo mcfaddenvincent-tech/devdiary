@@ -184,7 +184,7 @@ devdiary/
 [x] Install Supabase client (npm install @supabase/supabase-js)
 [x] Create lib/supabase.ts
 [x] Build landing page (replace default Next.js page)
-[ ] Deploy and confirm live at custom domain
+[x] Deploy and confirm live at custom domain
 
 ### Week 2 — Auth
 [ ] Set up Supabase Auth (email + password)

@@ -19,7 +19,7 @@ development by shipping something real.
 ---
 
 ## Tech Stack
-- Framework: Next.js 14 (App Router) + TypeScript
+- Framework: Next.js 16 (App Router) + TypeScript
 - Styling: Tailwind CSS
 - Database + Auth: Supabase
 - Hosting: Vercel (auto-deploys on every GitHub push)
@@ -181,9 +181,9 @@ devdiary/
 [x] Database schema created (profiles, projects, entries)
 [x] Row Level Security policies added
 [x] Auto-profile trigger added
-[ ] Install Supabase client (npm install @supabase/supabase-js)
-[ ] Create lib/supabase.ts
-[ ] Build landing page (replace default Next.js page)
+[x] Install Supabase client (npm install @supabase/supabase-js)
+[x] Create lib/supabase.ts
+[x] Build landing page (replace default Next.js page)
 [ ] Deploy and confirm live at custom domain
 
 ### Week 2 — Auth
@@ -229,11 +229,10 @@ it to build everything at once.
 ---
 
 ## Next immediate steps
-1. Copy this PROJECT.md into /Users/mcfaddenvincent/Projects/Claude/devdiary/
-2. Run: npm install @supabase/supabase-js
-3. Create lib/supabase.ts
-4. Replace app/page.tsx with the real landing page
-5. Push to GitHub — Vercel auto-deploys
+1. Push to GitHub — Vercel auto-deploys
+2. Confirm landing page is live at https://devdiary-five.vercel.app
+3. Start Week 2: set up Supabase Auth (email + password)
+4. Build /login and /signup pages
 
 ---
 
